@@ -5,7 +5,7 @@ class TestLambdaFunction(unittest.TestCase):
     def test_lambda_handler(self):
         response = lambda_handler({}, {})
         self.assertEqual(response['statusCode'], 200)
-        self.assertEqual(response['body'], 'Hello, World!')
+        self.assertEqual(response['body'], 'Hello, pranai!')
 
 if __name__ == '__main__':
     unittest.main()
